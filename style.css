@@ -3,3 +3,8 @@
     width: 50%;
   }
 }
+.icons{
+  width:20%;
+  filter:invert(1);
+  
+}
