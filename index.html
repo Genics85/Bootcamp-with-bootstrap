@@ -11,7 +11,7 @@
   <body>
 
     <!--- navbar-->
-  <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 ">
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
     <div class="container">
       <a href="#" class="navbar-brand"> Frontend BootCamp</a>
 
@@ -21,9 +21,9 @@
 
       <div class="collapse navbar-collapse" id="navmenu">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a href="#Learn" class="nav-link">Learn</a></li>
-        <li class="nav-item"><a href="#Questions" class="nav-link">Questions</a></li>
-          <li class="nav-item"><a href="#Instructors" class="nav-link">Instructors</a></li>
+          <li class="nav-item"><a href="#learn" class="nav-link">What You'll Learn</a></li>
+        <li class="nav-item"><a href="#questions" class="nav-link">Questions</a></li>
+          <li class="nav-item"><a href="#instructors" class="nav-link">Instructors</a></li>
 
         </ul>
 
@@ -32,7 +32,7 @@
   </nav>
 
   <!--showcase-->
-<section class="bg-dark text-light text-center p-5">
+<section class="bg-dark text-light text-center p-5 mt-5">
   <div class="container ">
     <div class="d-sm-flex align-items-center justify-content-between">
     <div class="" style="text-align:left;">
@@ -123,10 +123,10 @@
 
 <!--learn-->
 
-<section id="learn p-5">
+<section id="learn" class="p-5">
 
   <div class="container mt-5">
-    <div class="row ">
+    <div class="row g-3">
       <div class="col-md">
         <div class="">
           <img src="img/react2.jpg" style="width:80%;" class="img-fluid">
@@ -137,13 +137,284 @@
         <h2>Learn The Fundamentals</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        <button type="button" class="btn btn-light btn-lg" name="button">More</button>
+        <a href="#"><button type="button" class="btn btn-light " name="button"> <img src="icons/chevron-bar-right.svg" > More</button></a>
       </div>
     </div>
 
   </div>
 
   </div>
+</section>
+
+<!--  -->
+
+<section  class=" p-5 bg-dark text-light">
+
+  <div class="container mt-5 ">
+    <div class="row g-3 ">
+
+      <div class="col-md ">
+        <h2>Learn React</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#"><button type="button" class="btn btn-light " name="button"> <img src="icons/chevron-bar-right.svg" > More</button></a>
+      </div>
+
+      <div class="col-md">
+        <div class="">
+          <img src="img/react4.jpg" style="width:70%;" class="img-fluid ">
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+  </div>
+</section>
+
+<!--Question accordions-->
+<section class="p-5">
+  <div class="container text-center">
+    <h2 class="mb-3">Frequently Asked Questions</h2>
+
+    <div class="accordion accordion-flush" id="questions">
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseOne"
+
+      >
+        Where Are You Exactly Located
+      </button>
+    </h2>
+    <div
+      id="flush-collapseOne"
+      class="accordion-collapse collapse"
+
+      data-bs-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+        heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseTwo"
+
+      >
+        How Much Does It Cost To Be Part
+      </button>
+    </h2>
+    <div
+      id="flush-collapseTwo"
+      class="accordion-collapse collapse"
+
+      data-bs-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+        heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseThree"
+
+      >
+        What Are The Prerequisited Skills
+      </button>
+    </h2>
+    <div
+      id="flush-collapseThree"
+      class="accordion-collapse collapse"
+
+      data-bs-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+        heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#flush-collapsefour"
+
+      >
+        How Do I sign Up
+      </button>
+    </h2>
+    <div
+      id="flush-collapsefour"
+      class="accordion-collapse collapse"
+
+      data-bs-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+        heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" >
+      <button
+        class="accordion-button collapsed"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#flush-collapseFive"
+
+      >
+        Will You Help Me Find Job
+      </button>
+    </h2>
+    <div
+      id="flush-collapseFive"
+      class="accordion-collapse collapse"
+
+      data-bs-parent="#accordionFlushExample"
+    >
+      <div class="accordion-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
+        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
+        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor,
+        sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch
+        et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt
+        sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
+        craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't
+        heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+
+</section>
+
+<!--instructors-->
+
+<section id="instructors" class="p-5 bg-primary text-center">
+  <div class="container">
+    <div class=" text-light mb-5">
+      <h2 > Our Instructors</h2>
+    </div>
+
+    <div class="row g-3">
+      <div class="col-md-6 col-lg-3">
+        <div class="card ">
+          <img src="img/person3.jpg" class="rounded-circle d-block mx-auto mt-3">
+          <div class="card-body">
+            <h3 class="card-title ">Angela Doe</h3>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="mx-1"><img src="icons/twitter.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/instagram.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/facebook.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/linkedin.svg" alt=""></a>  
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ">
+          <img src="img/person2.jpg" class="rounded-circle d-block mx-auto mt-3">
+          <div class="card-body">
+            <h3 class="card-title "> Frank Cole</h3>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="mx-1"><img src="icons/twitter.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/instagram.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/facebook.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/linkedin.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ">
+          <img src="img/person1.jpg" class="rounded-circle d-block mx-auto mt-3">
+          <div class="card-body">
+            <h3 class="card-title "> David Key</h3>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="mx-1"><img src="icons/twitter.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/instagram.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/facebook.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/linkedin.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card ">
+          <img src="img/person5.jpg" class="rounded-circle d-block mx-auto mt-3 " >
+          <div class="card-body">
+            <h3 class="card-title "> Martin Oui</h3>
+            <p class="card-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            <a class="mx-1"><img src="icons/twitter.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/instagram.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/facebook.svg" alt=""></a>
+            <a class="mx-1"><img src="icons/linkedin.svg" alt=""></a>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+
+
+  </div>
+
+
 </section>
   </body>
 </html>
